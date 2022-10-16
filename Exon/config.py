@@ -57,7 +57,7 @@ class Config(object):
     ERROR_LOGS = "-1001561993353"
 
     SQLALCHEMY_DATABASE_URI = "postgresql://xuajpuxl:k2vvRADJk0ggkxGf0AgTb9IJ2iwv5Mhu@mouse.db.elephantsql.com/xuajpuxl"
-    DB_URL = ""
+    DB_URL = "postgresql://xuajpuxl:k2vvRADJk0ggkxGf0AgTb9IJ2iwv5Mhu@mouse.db.elephantsql.com/xuajpuxl"
     MONGO_DB_URL = "mongodb+srv://newdb:newdb@cluster0.ruafqzg.mongodb.net/?retryWrites=true&w=majority"  # needed for any database modules
     MONGO_URL = ""
     DB_URL2 = "mongodb+srv://newdb:newdb@cluster0.ruafqzg.mongodb.net/?retryWrites=true&w=majority"  # YOUR MONGO_DB_URI
