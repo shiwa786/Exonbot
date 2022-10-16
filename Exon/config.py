@@ -38,29 +38,29 @@ def get_user_list(config, key):
 class Config(object):
     LOGGER = True
 
-    API_ID = "983922"
-    API_HASH = "SMSMSMSAKAMAKA"
-    APP_ID = "953922"  # 2nd API_ID
-    APP_HASH = "funssnAjsjaSJns82AjajU"  # 2ns API_HASH
+    API_ID = "10448562"
+    API_HASH = "4a8a640bb154fc59227ccbcb5d5ce612"
+    APP_ID = "10448562"  # 2nd API_ID
+    APP_HASH = "4a8a640bb154fc59227ccbcb5d5ce612"  # 2ns API_HASH
     ARQ_API_KEY = "TENRCY-KDKSK-MSMSM-OXQYYO-ARQ"
     BOT_ID = "5408158735"
-    TOKEN = "5458182410:KINGABISHNOI-UM"
-    OWNER_ID = "1452219013"
+    TOKEN = "5643681960:AAHwNOqT9DFsxYDvCudTe2IOAkwjA_RghQQ"
+    OWNER_ID = "5497627952"
     OPENWEATHERMAP_ID = "22322"
-    OWNER_USERNAME = "Abishnoi1M"
-    BOT_USERNAME = "Exon_Robot"
-    SUPPORT_CHAT = "AbishnoiMF"
-    UPDATES_CHANNEL = "Abishnoi_bots"
-    SUPPORT_CHANNEL = "Abishnoi_bots"
-    JOIN_LOGGER = "-1001497222182"
-    EVENT_LOGS = "-1001497222182"
-    ERROR_LOGS = "-1001497222182"
+    OWNER_USERNAME = "denvil_xdd"
+    BOT_USERNAME = "miselisarobot"
+    SUPPORT_CHAT = "Elisha_support"
+    UPDATES_CHANNEL = "denvil_bots"
+    SUPPORT_CHANNEL = "denvil_bots"
+    JOIN_LOGGER = "-1001561993353"
+    EVENT_LOGS = "-1001561993353"
+    ERROR_LOGS = "-1001561993353"
 
-    SQLALCHEMY_DATABASE_URI = ""
+    SQLALCHEMY_DATABASE_URI = "postgresql://xuajpuxl:k2vvRADJk0ggkxGf0AgTb9IJ2iwv5Mhu@mouse.db.elephantsql.com/xuajpuxl"
     DB_URL = ""
-    MONGO_DB_URL = ""  # needed for any database modules
+    MONGO_DB_URL = "mongodb+srv://newdb:newdb@cluster0.ruafqzg.mongodb.net/?retryWrites=true&w=majority"  # needed for any database modules
     MONGO_URL = ""
-    DB_URL2 = ""  # YOUR MONGO_DB_URI
+    DB_URL2 = "mongodb+srv://newdb:newdb@cluster0.ruafqzg.mongodb.net/?retryWrites=true&w=majority"  # YOUR MONGO_DB_URI
     ARQ_API_URL = "https://arq.hamker.in"
     BOT_API_URL = "https://api.telegram.org/bot"
     LOAD = []
