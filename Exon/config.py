@@ -71,7 +71,7 @@ class Config(object):
     SPAMWATCH_API = ""
     SPAMWATCH_SUPPORT_CHAT = "@AbishnoiMF"
 
-    REDIS_URL = ""
+    REDIS_URL = "redis://ok:Da%4012345@redis-15098.c56.east-us.azure.cloud.redislabs.com:15098"
 
     DRAGONS = get_user_list("elevated_users.json", "sudos")
     DEV_USERS = get_user_list("elevated_users.json", "devs")
@@ -81,7 +81,7 @@ class Config(object):
     TIGERS = get_user_list("elevated_users.json", "tigers")
     WOLVES = get_user_list("elevated_users.json", "whitelists")
 
-    DONATION_LINK = "https://t.me/Abishnoi1M"
+    DONATION_LINK = "https://t.me/Denvil_xdd"
     CERT_PATH = None
     STRICT_GBAN = "True"
     PORT = ""
