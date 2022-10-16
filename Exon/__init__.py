@@ -273,6 +273,8 @@ else:
     START_IMG = Config.START_IMG
     ALLOW_EXCL = Config.ALLOW_EXCL
     DEL_CMDS = Config.DEL_CMDS
+    HEROKU_APP_NAME = Config.HEROKU_APP_NAME
+    HEROKU_API_KEY = Config.HEROKU_API_KEY
 
     BOT_API_URL = Config.BOT_API_URL
 
